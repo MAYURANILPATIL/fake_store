@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'pages/home_page.dart';
-import 'pages/login_page.dart';
 
 void main() {
   runApp(const FakeStore());
@@ -11,7 +10,7 @@ class FakeStore extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       home: Homepage(),
     );
   }
